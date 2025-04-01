@@ -70,37 +70,9 @@ const ws = new WebSocket.Server({ port: 8080 }); // WebSocket Server
 const rawData = fs.readFileSync("data.json");
 const locationData = JSON.parse(rawData);
 
-// Listen for AWS IoT device connection
-device.on("connect", function () {
-  console.log("Connected to AWS IoT");
-
-  // Subscribe to a topic
-  device.subscribe("ASSET_TRACKER");
-});
-
-// Listen for incoming messages from AWS IoT
-device.on("message", function (topic, payload) {
-  console.log("Received message from AWS IoT:", topic, payload.toString());
-
-  // Convert payload to JSON
-  let jsonData;
-  try {
-    jsonData = JSON.parse(payload.toString());
-  } catch (error) {
-    console.error("Error parsing IoT payload:", error);
-    return;
-  }
-
-  // Broadcast received data to all WebSocket clients
-  ws.clients.forEach((client) => {
-    if (client.readyState === WebSocket.OPEN) {
-      client.send(JSON.stringify(jsonData));
-    }
-  });
-});
-
 // Function to send JSON objects sequentially
 function sendSequentialData() {
+  console.log("@")
   let index = 0;
 
   const interval = setInterval(() => {
@@ -122,17 +94,50 @@ function sendSequentialData() {
   }, 3000); // Send data every 3 seconds (adjust as needed)
 }
 
-// Start sending data when a WebSocket client connects
-ws.on("connection", (socket) => {
-  console.log("New client connected");
-
-  // Start sending GPS data
+// Listen for AWS IoT device connection
+device.on("connect", function () {
   sendSequentialData();
+  console.log("Connected to AWS IoT");
 
-  socket.on("close", () => {
-    console.log("Client disconnected");
+  // Subscribe to a topic
+  device.subscribe("ASSET_TRACKER");
+});
+
+// Listen for incoming messages from AWS IoT
+device.on("message", function (topic, payload) {
+  console.log("Received message from AWS IoT:", topic, payload.toString());
+  // payload = JSON.parse(payload.toString());
+
+  // Convert payload to JSON
+  let jsonData;
+  try {
+    jsonData = JSON.parse(payload.toString());
+  } catch (error) {
+    console.error("Error parsing IoT payload:", error);
+    return;
+  }
+
+  // Broadcast received data to all WebSocket clients
+  ws.clients.forEach((client) => {
+    if (client.readyState === WebSocket.OPEN) {
+      client.send(JSON.stringify(jsonData));
+    }
   });
 });
+
+
+
+// Start sending data when a WebSocket client connects
+// ws.on("connection", (socket) => {
+//   console.log("New client connected");
+
+//   // Start sending GPS data
+//   sendSequentialData();
+
+//   socket.on("close", () => {
+//     console.log("Client disconnected");
+//   });
+// });
 
 // Handle WebSocket errors
 ws.on("error", (error) => {

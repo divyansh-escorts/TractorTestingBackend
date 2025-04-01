@@ -100,7 +100,7 @@ app.use((err, req, res, next) => {
 // Disable 'x-powered-by' header
 // app.disable('x-powered-by');
 
-app.listen(3303, async () => {
+app.listen(3307, async () => {
   let secrets = await fetchSecrets();
   console.log("App listening at port " + secrets.PORT_TTP);
 });
