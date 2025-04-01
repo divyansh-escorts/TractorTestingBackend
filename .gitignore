@@ -1,0 +1,27 @@
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+
+#env file
+*.env
+
+#aws credentials
+aws/
+
+# firebase keys
+fcm-key/*
+
+#ftp files
+public/ftp/*
+
+#readings
+readings/*
+
+#codecommit  PR command
+# codecommitcommands
+
+#DSstore
+.DS_store

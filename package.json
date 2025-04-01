@@ -1,0 +1,24 @@
+{
+  "name": "tractortestingbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-secrets-manager": "^3.758.0",
+    "aws-iot-device-sdk": "^2.2.15",
+    "aws-sdk": "^2.1692.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-fileupload": "^1.5.1",
+    "pg": "^8.13.3",
+    "pg-hstore": "^2.3.4",
+    "react-leaflet": "^5.0.0-rc.2",
+    "sequelize": "^6.37.6",
+    "serve-index": "^1.9.1"
+  }
+}
