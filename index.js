@@ -81,7 +81,7 @@ app.post('/upload', function (req, res) {
   let sampleFile = req.files.file;
   let uploadPath = __dirname + '/public/ftp/' + sampleFile.name;
 
-  sampleFile.mv(uploadPath, function (err) {
+  sampleFile.mv(uploadPath, function (err) {wss://demo.piesocket.com/v3/channel_123?api_key=VCXCEuvhGcBDP7XhiJJUDvR1e1D3eiVjgZ9VRiaV&notify_self
     if (err) {
       console.log(err);
       return res.status(500).send(err);
@@ -103,7 +103,7 @@ app.use((err, req, res, next) => {
 // app.disable('x-powered-by');
 
 app.listen(3307, async () => {
-  console.log(process.env);
+  // console.log(process.env);
   let secrets = process.env;
   console.log("App listening at port " + secrets.PORT_TTP);
 });
@@ -114,6 +114,7 @@ app.listen(3307, async () => {
 // https.createServer(options, app).listen(3302)
 
 app.get('/getData',async(req,res)=>{
+  console.log("GET /getData")
   const {date}= req.query;
   console.log(date);
   try{
