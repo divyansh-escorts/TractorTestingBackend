@@ -13,7 +13,7 @@ let sequelize;
 
 async function makeModels() {
   let config = await fetchSecrets();
-  
+  // console.log("config",config);
   sequelize = new Sequelize(
     config.URL_TTP
   );

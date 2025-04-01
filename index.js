@@ -65,6 +65,7 @@ app.use(bodyParser.urlencoded({
 
 // File upload middleware
 const fileUpload = require('express-fileupload');
+const { getTripData } = require("./dbQueries/dataGet.js");
 app.use(fileUpload());
 
 // Rate limiting middleware (optional)
@@ -109,3 +110,16 @@ app.listen(3307, async () => {
 //   cert: fs.readFileSync('certificate.pem')
 // };
 // https.createServer(options, app).listen(3302)
+
+app.get('/getData',async(req,res)=>{
+  const {date}= req.query;
+  console.log(date);
+  try{
+    const result = await getTripData(date);
+    return res.json({success:true, result});
+  }
+  catch(err)
+  {
+    return res.json({success:false})
+  }
+})
