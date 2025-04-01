@@ -19,7 +19,7 @@ const device = require("../middlewares/awsConnection");
 // server.js
 
 const WebSocket = require('ws');
-const ws = new WebSocket.Server({ port: 8080 });  // WebSocket server running on port 8080
+const ws = new WebSocket.Server({ port: 3037 });  // WebSocket server running on port 8080
 
 // Listen for AWS IoT device connection
 device.on('connect', function() {
