@@ -15,8 +15,8 @@ const fetchSecrets = require("./middlewares/fetchSecrets");
 // const ipArray = require("./middlewares/blockedIPs");
 
 // CORS Middleware
-// var cors = require("cors");
-// app.use(cors());
+var cors = require("cors");
+app.use(cors());
 var https = require('https')
 
 // const allowedOrigins = ['https://www.eklfdc.com', 'http://localhost:3000']; // Add localhost for testing
@@ -107,22 +107,10 @@ app.listen(3307, async () => {
   let secrets = process.env;
   console.log("App listening at port " + secrets.PORT_TTP);
 });
+
+app.use('/', require('./routes'))
 // var options = {
 //   key: fs.readFileSync('privatekey.pem'),
 //   cert: fs.readFileSync('certificate.pem')
 // };
 // https.createServer(options, app).listen(3302)
-
-app.get('/getData',async(req,res)=>{
-  console.log("GET /getData")
-  const {date}= req.query;
-  console.log(date);
-  try{
-    const result = await getTripData(date);
-    return res.json({success:true, result});
-  }
-  catch(err)
-  {
-    return res.json({success:false})
-  }
-})
