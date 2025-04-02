@@ -1,6 +1,7 @@
 const router = require('express').Router()
 const fs=require('fs');
 const { json } = require('sequelize');
+const { getTripData } = require('../dbQueries/dataGet');
 router.get('/historic',async(req,res)=>{
     console.log("GET /getData")
     const {date}= req.query;
