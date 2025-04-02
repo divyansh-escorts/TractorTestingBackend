@@ -114,3 +114,4 @@ app.use('/', require('./routes'))
 //   cert: fs.readFileSync('certificate.pem')
 // };
 // https.createServer(options, app).listen(3302)
+module.export = app;

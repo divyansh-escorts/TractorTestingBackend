@@ -1792,6 +1792,440 @@
           "FUEL_LEVEL": "49.3773",
           "ENGINE_RPM": "892.5870"
         }
+      },
+      {
+        "timestamp": "2025-04-02T10:04:12.388Z",
+        "topic": "ASSET_TRACKER",
+        "message": {
+          "TIME": "25/04/02,07:46:06+22 ",
+          "DEVICE_ID": "EKL_02 ",
+          "LATITUDE": "28.2131",
+          "LONGITUDE": "77.2585",
+          "ALTITUDE": "202.6000",
+          "SPEED": "0.3667",
+          "FUEL_LEVEL": "49.3773",
+          "ENGINE_RPM": "892.5870"
+        }
+      },
+      {
+        "timestamp": "2025-04-02T10:04:19.999Z",
+        "topic": "ASSET_TRACKER",
+        "message": {
+          "TIME": "25/04/02,07:46:06+22 ",
+          "DEVICE_ID": "EKL_02 ",
+          "LATITUDE": "28.2131",
+          "LONGITUDE": "77.2585",
+          "ALTITUDE": "202.6000",
+          "SPEED": "0.3667",
+          "FUEL_LEVEL": "49.3773",
+          "ENGINE_RPM": "892.5870"
+        }
+      },
+      {
+        "timestamp": "2025-04-02T10:04:20.373Z",
+        "topic": "ASSET_TRACKER",
+        "message": {
+          "TIME": "25/04/02,07:46:06+22 ",
+          "DEVICE_ID": "EKL_02 ",
+          "LATITUDE": "28.2131",
+          "LONGITUDE": "77.2585",
+          "ALTITUDE": "202.6000",
+          "SPEED": "0.3667",
+          "FUEL_LEVEL": "49.3773",
+          "ENGINE_RPM": "892.5870"
+        }
+      },
+      {
+        "timestamp": "2025-04-02T10:04:30.104Z",
+        "topic": "ASSET_TRACKER",
+        "message": {
+          "TIME": "25/04/02,07:46:06+22 ",
+          "DEVICE_ID": "EKL_02 ",
+          "LATITUDE": "28.2131",
+          "LONGITUDE": "77.2585",
+          "ALTITUDE": "202.6000",
+          "SPEED": "0.3667",
+          "FUEL_LEVEL": "49.3773",
+          "ENGINE_RPM": "892.5870"
+        }
+      },
+      {
+        "timestamp": "2025-04-02T10:04:30.537Z",
+        "topic": "ASSET_TRACKER",
+        "message": {
+          "TIME": "25/04/02,07:46:06+22 ",
+          "DEVICE_ID": "EKL_02 ",
+          "LATITUDE": "28.2131",
+          "LONGITUDE": "77.2585",
+          "ALTITUDE": "202.6000",
+          "SPEED": "0.3667",
+          "FUEL_LEVEL": "49.3773",
+          "ENGINE_RPM": "892.5870"
+        }
+      },
+      {
+        "timestamp": "2025-04-02T10:04:43.313Z",
+        "topic": "ASSET_TRACKER",
+        "message": {
+          "TIME": "25/04/02,07:46:06+22 ",
+          "DEVICE_ID": "EKL_02 ",
+          "LATITUDE": "28.2131",
+          "LONGITUDE": "77.2585",
+          "ALTITUDE": "202.6000",
+          "SPEED": "0.3667",
+          "FUEL_LEVEL": "49.3773",
+          "ENGINE_RPM": "892.5870"
+        }
+      },
+      {
+        "timestamp": "2025-04-02T10:04:43.803Z",
+        "topic": "ASSET_TRACKER",
+        "message": {
+          "TIME": "25/04/02,07:46:06+22 ",
+          "DEVICE_ID": "EKL_02 ",
+          "LATITUDE": "28.2131",
+          "LONGITUDE": "77.2585",
+          "ALTITUDE": "202.6000",
+          "SPEED": "0.3667",
+          "FUEL_LEVEL": "49.3773",
+          "ENGINE_RPM": "892.5870"
+        }
+      },
+      {
+        "timestamp": "2025-04-02T10:05:04.713Z",
+        "topic": "ASSET_TRACKER",
+        "message": {
+          "TIME": "25/04/02,07:46:06+22 ",
+          "DEVICE_ID": "EKL_02 ",
+          "LATITUDE": "28.2131",
+          "LONGITUDE": "77.2585",
+          "ALTITUDE": "202.6000",
+          "SPEED": "0.3667",
+          "FUEL_LEVEL": "49.3773",
+          "ENGINE_RPM": "892.5870"
+        }
+      },
+      {
+        "timestamp": "2025-04-02T10:05:05.224Z",
+        "topic": "ASSET_TRACKER",
+        "message": {
+          "TIME": "25/04/02,07:46:06+22 ",
+          "DEVICE_ID": "EKL_02 ",
+          "LATITUDE": "28.2131",
+          "LONGITUDE": "77.2585",
+          "ALTITUDE": "202.6000",
+          "SPEED": "0.3667",
+          "FUEL_LEVEL": "49.3773",
+          "ENGINE_RPM": "892.5870"
+        }
+      },
+      {
+        "timestamp": "2025-04-02T10:05:27.651Z",
+        "topic": "ASSET_TRACKER",
+        "message": {
+          "TIME": "25/04/02,07:46:06+22 ",
+          "DEVICE_ID": "EKL_02 ",
+          "LATITUDE": "28.2131",
+          "LONGITUDE": "77.2585",
+          "ALTITUDE": "202.6000",
+          "SPEED": "0.3667",
+          "FUEL_LEVEL": "49.3773",
+          "ENGINE_RPM": "892.5870"
+        }
+      },
+      {
+        "timestamp": "2025-04-02T10:05:28.069Z",
+        "topic": "ASSET_TRACKER",
+        "message": {
+          "TIME": "25/04/02,07:46:06+22 ",
+          "DEVICE_ID": "EKL_02 ",
+          "LATITUDE": "28.2131",
+          "LONGITUDE": "77.2585",
+          "ALTITUDE": "202.6000",
+          "SPEED": "0.3667",
+          "FUEL_LEVEL": "49.3773",
+          "ENGINE_RPM": "892.5870"
+        }
+      },
+      {
+        "timestamp": "2025-04-02T10:06:06.087Z",
+        "topic": "ASSET_TRACKER",
+        "message": {
+          "TIME": "25/04/02,07:46:06+22 ",
+          "DEVICE_ID": "EKL_02 ",
+          "LATITUDE": "28.2131",
+          "LONGITUDE": "77.2585",
+          "ALTITUDE": "202.6000",
+          "SPEED": "0.3667",
+          "FUEL_LEVEL": "49.3773",
+          "ENGINE_RPM": "892.5870"
+        }
+      },
+      {
+        "timestamp": "2025-04-02T10:06:06.482Z",
+        "topic": "ASSET_TRACKER",
+        "message": {
+          "TIME": "25/04/02,07:46:06+22 ",
+          "DEVICE_ID": "EKL_02 ",
+          "LATITUDE": "28.2131",
+          "LONGITUDE": "77.2585",
+          "ALTITUDE": "202.6000",
+          "SPEED": "0.3667",
+          "FUEL_LEVEL": "49.3773",
+          "ENGINE_RPM": "892.5870"
+        }
+      },
+      {
+        "timestamp": "2025-04-02T10:07:16.806Z",
+        "topic": "ASSET_TRACKER",
+        "message": {
+          "TIME": "25/04/02,07:46:06+22 ",
+          "DEVICE_ID": "EKL_02 ",
+          "LATITUDE": "28.2131",
+          "LONGITUDE": "77.2585",
+          "ALTITUDE": "202.6000",
+          "SPEED": "0.3667",
+          "FUEL_LEVEL": "49.3773",
+          "ENGINE_RPM": "892.5870"
+        }
+      },
+      {
+        "timestamp": "2025-04-02T10:07:17.215Z",
+        "topic": "ASSET_TRACKER",
+        "message": {
+          "TIME": "25/04/02,07:46:06+22 ",
+          "DEVICE_ID": "EKL_02 ",
+          "LATITUDE": "28.2131",
+          "LONGITUDE": "77.2585",
+          "ALTITUDE": "202.6000",
+          "SPEED": "0.3667",
+          "FUEL_LEVEL": "49.3773",
+          "ENGINE_RPM": "892.5870"
+        }
+      },
+      {
+        "timestamp": "2025-04-02T10:07:36.569Z",
+        "topic": "ASSET_TRACKER",
+        "message": {
+          "TIME": "25/04/02,07:46:06+22 ",
+          "DEVICE_ID": "EKL_02 ",
+          "LATITUDE": "28.2131",
+          "LONGITUDE": "77.2585",
+          "ALTITUDE": "202.6000",
+          "SPEED": "0.3667",
+          "FUEL_LEVEL": "49.3773",
+          "ENGINE_RPM": "892.5870"
+        }
+      },
+      {
+        "timestamp": "2025-04-02T10:07:37.082Z",
+        "topic": "ASSET_TRACKER",
+        "message": {
+          "TIME": "25/04/02,07:46:06+22 ",
+          "DEVICE_ID": "EKL_02 ",
+          "LATITUDE": "28.2131",
+          "LONGITUDE": "77.2585",
+          "ALTITUDE": "202.6000",
+          "SPEED": "0.3667",
+          "FUEL_LEVEL": "49.3773",
+          "ENGINE_RPM": "892.5870"
+        }
+      },
+      {
+        "timestamp": "2025-04-02T10:08:39.784Z",
+        "topic": "ASSET_TRACKER",
+        "message": {
+          "TIME": "25/04/02,07:46:06+22 ",
+          "DEVICE_ID": "EKL_02 ",
+          "LATITUDE": "28.2131",
+          "LONGITUDE": "77.2585",
+          "ALTITUDE": "202.6000",
+          "SPEED": "0.3667",
+          "FUEL_LEVEL": "49.3773",
+          "ENGINE_RPM": "892.5870"
+        }
+      },
+      {
+        "timestamp": "2025-04-02T10:09:31.770Z",
+        "topic": "ASSET_TRACKER",
+        "message": {
+          "TIME": "25/04/02,07:46:06+22 ",
+          "DEVICE_ID": "EKL_02 ",
+          "LATITUDE": "28.2131",
+          "LONGITUDE": "77.2585",
+          "ALTITUDE": "202.6000",
+          "SPEED": "0.3667",
+          "FUEL_LEVEL": "49.3773",
+          "ENGINE_RPM": "892.5870"
+        }
+      },
+      {
+        "timestamp": "2025-04-02T10:09:32.177Z",
+        "topic": "ASSET_TRACKER",
+        "message": {
+          "TIME": "25/04/02,07:46:06+22 ",
+          "DEVICE_ID": "EKL_02 ",
+          "LATITUDE": "28.2131",
+          "LONGITUDE": "77.2585",
+          "ALTITUDE": "202.6000",
+          "SPEED": "0.3667",
+          "FUEL_LEVEL": "49.3773",
+          "ENGINE_RPM": "892.5870"
+        }
+      },
+      {
+        "timestamp": "2025-04-02T10:09:52.044Z",
+        "topic": "ASSET_TRACKER",
+        "message": {
+          "TIME": "25/04/02,07:46:06+22 ",
+          "DEVICE_ID": "EKL_02 ",
+          "LATITUDE": "28.2131",
+          "LONGITUDE": "77.2585",
+          "ALTITUDE": "202.6000",
+          "SPEED": "0.3667",
+          "FUEL_LEVEL": "49.3773",
+          "ENGINE_RPM": "892.5870"
+        }
+      },
+      {
+        "timestamp": "2025-04-02T10:09:52.658Z",
+        "topic": "ASSET_TRACKER",
+        "message": {
+          "TIME": "25/04/02,07:46:06+22 ",
+          "DEVICE_ID": "EKL_02 ",
+          "LATITUDE": "28.2131",
+          "LONGITUDE": "77.2585",
+          "ALTITUDE": "202.6000",
+          "SPEED": "0.3667",
+          "FUEL_LEVEL": "49.3773",
+          "ENGINE_RPM": "892.5870"
+        }
+      },
+      {
+        "timestamp": "2025-04-02T10:10:14.780Z",
+        "topic": "ASSET_TRACKER",
+        "message": {
+          "TIME": "25/04/02,07:46:06+22 ",
+          "DEVICE_ID": "EKL_02 ",
+          "LATITUDE": "28.2131",
+          "LONGITUDE": "77.2585",
+          "ALTITUDE": "202.6000",
+          "SPEED": "0.3667",
+          "FUEL_LEVEL": "49.3773",
+          "ENGINE_RPM": "892.5870"
+        }
+      },
+      {
+        "timestamp": "2025-04-02T10:11:46.424Z",
+        "topic": "ASSET_TRACKER",
+        "message": {
+          "TIME": "25/04/02,07:46:06+22 ",
+          "DEVICE_ID": "EKL_02 ",
+          "LATITUDE": "28.2131",
+          "LONGITUDE": "77.2585",
+          "ALTITUDE": "202.6000",
+          "SPEED": "0.3667",
+          "FUEL_LEVEL": "49.3773",
+          "ENGINE_RPM": "892.5870"
+        }
+      },
+      {
+        "timestamp": "2025-04-02T10:11:46.834Z",
+        "topic": "ASSET_TRACKER",
+        "message": {
+          "TIME": "25/04/02,07:46:06+22 ",
+          "DEVICE_ID": "EKL_02 ",
+          "LATITUDE": "28.2131",
+          "LONGITUDE": "77.2585",
+          "ALTITUDE": "202.6000",
+          "SPEED": "0.3667",
+          "FUEL_LEVEL": "49.3773",
+          "ENGINE_RPM": "892.5870"
+        }
+      },
+      {
+        "timestamp": "2025-04-02T10:12:07.531Z",
+        "topic": "ASSET_TRACKER",
+        "message": {
+          "TIME": "25/04/02,07:46:06+22 ",
+          "DEVICE_ID": "EKL_02 ",
+          "LATITUDE": "28.2131",
+          "LONGITUDE": "77.2585",
+          "ALTITUDE": "202.6000",
+          "SPEED": "0.3667",
+          "FUEL_LEVEL": "49.3773",
+          "ENGINE_RPM": "892.5870"
+        }
+      },
+      {
+        "timestamp": "2025-04-02T10:12:07.927Z",
+        "topic": "ASSET_TRACKER",
+        "message": {
+          "TIME": "25/04/02,07:46:06+22 ",
+          "DEVICE_ID": "EKL_02 ",
+          "LATITUDE": "28.2131",
+          "LONGITUDE": "77.2585",
+          "ALTITUDE": "202.6000",
+          "SPEED": "0.3667",
+          "FUEL_LEVEL": "49.3773",
+          "ENGINE_RPM": "892.5870"
+        }
+      },
+      {
+        "timestamp": "2025-04-02T10:14:01.384Z",
+        "topic": "ASSET_TRACKER",
+        "message": {
+          "TIME": "25/04/02,07:46:06+22 ",
+          "DEVICE_ID": "EKL_02 ",
+          "LATITUDE": "28.2131",
+          "LONGITUDE": "77.2585",
+          "ALTITUDE": "202.6000",
+          "SPEED": "0.3667",
+          "FUEL_LEVEL": "49.3773",
+          "ENGINE_RPM": "892.5870"
+        }
+      },
+      {
+        "timestamp": "2025-04-02T10:14:01.757Z",
+        "topic": "ASSET_TRACKER",
+        "message": {
+          "TIME": "25/04/02,07:46:06+22 ",
+          "DEVICE_ID": "EKL_02 ",
+          "LATITUDE": "28.2131",
+          "LONGITUDE": "77.2585",
+          "ALTITUDE": "202.6000",
+          "SPEED": "0.3667",
+          "FUEL_LEVEL": "49.3773",
+          "ENGINE_RPM": "892.5870"
+        }
+      },
+      {
+        "timestamp": "2025-04-02T10:14:22.887Z",
+        "topic": "ASSET_TRACKER",
+        "message": {
+          "TIME": "25/04/02,07:46:06+22 ",
+          "DEVICE_ID": "EKL_02 ",
+          "LATITUDE": "28.2131",
+          "LONGITUDE": "77.2585",
+          "ALTITUDE": "202.6000",
+          "SPEED": "0.3667",
+          "FUEL_LEVEL": "49.3773",
+          "ENGINE_RPM": "892.5870"
+        }
+      },
+      {
+        "timestamp": "2025-04-02T10:14:23.401Z",
+        "topic": "ASSET_TRACKER",
+        "message": {
+          "TIME": "25/04/02,07:46:06+22 ",
+          "DEVICE_ID": "EKL_02 ",
+          "LATITUDE": "28.2131",
+          "LONGITUDE": "77.2585",
+          "ALTITUDE": "202.6000",
+          "SPEED": "0.3667",
+          "FUEL_LEVEL": "49.3773",
+          "ENGINE_RPM": "892.5870"
+        }
       }
     ]
   }

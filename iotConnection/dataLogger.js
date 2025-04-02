@@ -4,7 +4,7 @@ const fs = require('fs');
 const express = require('express');
 const app = express();
 // const port = 3000; // API server running on port 3000
-const ws = new WebSocket.Server({ port: 3307 });  // WebSocket server running on port 8080
+const ws = new WebSocket.Server({ port: 8080 });  // WebSocket server running on port 8080
 
 // Listen for AWS IoT device connection
 device.on('connect', function() {
